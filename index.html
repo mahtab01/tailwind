@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -19,9 +19,9 @@
                 <span class="tracking-[.15rem] pt-[.9rem] pl-2 font-bold text-lg uppercase ">shopping</span>
             </div>
             <div class="items-center space-x-10 text-lg md:flex">
-                <a href="#">سولات متداول </a>
-                <a href="#"> دسته بندی</a>
-                <a href="#"> محصولات</a>
+                <a href="#qustion">سولات متداول </a>
+                <a href="#cat"> دسته بندی</a>
+                <a href="#procat"> محصولات</a>
                 <a href="#" class="px-8 py-2 border-2 border-[#fafafa] rounded-lg hover:text-black hover:bg-white"> حساب
                     کاربری</a>
 
@@ -46,7 +46,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="procat">
         <div class="container mx-auto px-6">
             <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">آخرین محصولات</h2>
             <p class=" max-w-lg mx-auto text-center">متن آخرین محصولات</p>
@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="cat">
         <div class="container mx-auto mt-16 px-6 ">
             <h2 class="mb-6 text-3xl font-semibold text-center">دسته بندی ها</h2>
             <P class="max-w-md mx-auto text-center"> متن دسته بندی</P>
@@ -103,14 +103,41 @@
         </div>
     </section>
 
-    <section>
+    <section id="qustion">
         <div class="container mx-auto  ">
             <h2 class="mb-6 text-3xl font-semibold text-center"> سولات متداول</h2>
             <p class="max-w-md mx-auto text-center">متن سولات متداول</p>
         </div>
     </section>
 
-    <section></section>
+    <section>
+        <div class="container mx-auto px-6 mb-32">
+        <div class="max-w-2xl m-8 mx-auto overflow-hidden ">
+            <div class="py-1 border-b outline-none group " tabindex="1">
+                <div class="fle items-center justify-between py-3 transition duration-500 cursor-pointer group ease ">
+                    <div class="transition duration-500 ease group-focus:rotate-180 "></div>
+                    <div class="text-lg">عنوان سوال</div>
+                </div>
+               
+                <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0  ease ">
+                    <p class="py-2 text-lg text-right text-gray-200">متن سوال </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="bg-[#1b1b1b]">
+        <div class="max-w-lg mx-auto py-24 ">
+            <h2 class="px-3 mb-6 text-3xl font-semibold text-center text-white md:text-4xl">آخرین اخبار  سایت </h2>
+            <form class="flex flex-col items-start justify-center max-w-2xl  mx-auto space-y-6 px-6 md:flex-row md:space-y-0   md:space-x-0  md:px-0">
+                <div class=" flex flex-col justify-between items-center mx-auto md:flex-row md:mx-0">
+                    <input type="submit" class="inline-flex px-6 py-2 mr-2 rounded-lg border-2 hover:bg-[#fafafa] hover:text-black cursor-pointer focus:outline-none" value="ارسال">
+                    <input type="text" class="flex-1 px-6 pt-3 mb-6 rounded-lg text-black focus:outline-none md:mr-3 md:mb-0"placeholder="آدرس ایمیل" >
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>
