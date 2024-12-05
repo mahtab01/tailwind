@@ -4,5 +4,12 @@ module.exports = {
     './pages/**/*.{html,js}',
     './components/**/*.{html,js}',
   ],
-  // ...
+  theme: {
+    extend: {
+      fontFamily: {
+        'custom': ['MyCustomFont', 'sans-serif'],
+      },
+    },
+  },
+  
 }
