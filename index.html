@@ -7,30 +7,31 @@
     <!-- <link href="./output.css" rel="stylesheet">
     <link href="./tailwind.min.css" rel="stylesheet"> -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="./input.css" rel="stylesheet">
+    <link href="src/input.css" rel="stylesheet">
 
 
     <title>Document</title>
 </head>
 
-<body class="overflow-x-hidden antialiased bg-black text-white font-custom">
+<body class="overflow-x-hidden antialiased bg-black text-white ">
     <nav class="container mx-auto relative p-6  ">
         <div class=" flex items-center justify-between space-x-20 my-6">
             <div class="flex">
-                <img src="./photo/dfe7e061-207f-41e6-ba42-ecab589872f5.jpg">
+                <img src="photo/logonomy-1733555736441.png">
                 <span class="tracking-[.15rem] pt-[.9rem] pl-2 font-bold text-lg uppercase ">shopping</span>
             </div>
-            <div class="items-center space-x-10 text-lg md:flex font-custom">
+            <div class="items-center space-x-10 text-lg md:flex ">
                 <a href="#qustion">سولات متداول </a>
                 <a href="#cat"> دسته بندی</a>
                 <a href="#procat"> محصولات</a>
-                <a href="#" class="px-8 py-2 border-2 border-[#fafafa] rounded-lg hover:text-black hover:bg-white"> حساب
+                <a href="#" class="px-8 py-2 border-2 border-[#fafafa] rounded-lg items-center text-center hover:text-black hover:bg-white"> حساب
                     کاربری</a>
 
             </div>
 
         </div>
     </nav>
+
     <section>
         <div class="container mx-auto h-screen flex flex-col p-6 lg:flex-row lg:mb-0">
             <div class="mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
@@ -41,8 +42,8 @@
                 <h1 class="text-3xl font-semibold   text-right lg:text-6xl"> عنوان نوشته </h1>
                 <p class="text-right text-lg text-gray-300 lg:text-2xl lg:mt-0 lg:mx-0 ">متن </p>
                 <div class="flex justify-end w-full space-x-4 lg:justify-end">
-                    <a href="#" class="p-4 text-lg rounded-lg border-2 hover:bg-white hover:text-black">بررسی و خرید</a>
-                    <a href="#" class="p-4 text-lg text-black bg-white rounded-lg border-2"> مشاهده محصولات</a>
+                    <a href="#" class="p-4 text-lg rounded-lg border-2 text-center items-center hover:bg-white hover:text-black">بررسی و خرید</a>
+                    <a href="#" class="p-4 text-lg text-black bg-white items-center text-center rounded-lg border-2"> مشاهده محصولات</a>
                 </div>
             </div>
         </div>
@@ -59,7 +60,7 @@
         <div class="relative flex flex-col items-center max-w-7xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:flex-row md:space-x-10">
             <div class="flex flex-col w-full text-center rounded-lg md:w-1/3 bg-[#1a1c1e]">
                 <div class="flex justify-center">
-                    <img src="./photo/photo_2024-12-03_13-22-42.jpg" class="rounded-t-lg">
+                    <img src="./photo/photo_2024-12-03_13-22-42.jpg" class="rounded-t-lg pt-1">
                 </div>
                 <h5 class="pt-6 mb-2 text-2xl font-bold">هدست</h5>
                 <div class="flex justify-center gap-1 text-gray-300 text-lg">
@@ -73,7 +74,7 @@
     
             <div class="flex flex-col w-full text-center rounded-lg md:w-1/3 bg-[#1a1c1e]">
                 <div class="flex justify-center">
-                    <img src="./photo/OIG2.ixe4L_5NrHh.jpg" class="rounded-t-lg">
+                    <img src="./photo/OIG2.ixe4L_5NrHh.jpg" class="rounded-t-lg pt-1">
                 </div>
                 <h5 class="pt-6 mb-2 text-2xl font-bold">موس</h5>
                 <div class="flex justify-center gap-1 text-gray-300 text-lg">
@@ -89,7 +90,7 @@
 
             <div class="flex flex-col w-full text-center rounded-lg md:w-1/3 bg-[#1a1c1e]">
                 <div class="flex justify-center">
-                    <img src="./photo/OIG2.jpg" class="rounded-t-lg">
+                    <img src="./photo/OIG2.jpg" class="rounded-t-lg pt-1">
                 </div>
                 <h5 class="pt-6 mb-2 text-2xl font-bold">کیبورد</h5>
                 <div class="flex justify-center gap-1 text-gray-300 text-lg">
@@ -103,7 +104,7 @@
 
             <div class="flex flex-col w-full text-center rounded-lg md:w-1/3 bg-[#1a1c1e]">
                 <div class="flex justify-center">
-                    <img src="./photo/manitor.jpg" class="rounded-t-lg">
+                    <img src="./photo/manitor.jpg" class="rounded-t-lg pt-1">
                 </div>
                 <h5 class="pt-6 mb-2 text-2xl font-bold">مانیتور</h5>
                 <div class="flex justify-center gap-1 text-gray-300 text-lg">
@@ -115,9 +116,6 @@
                 </div>
             </div>
         </div>
-       
-    </div>
-         
     </section>
 
     <section id="cat">
@@ -145,7 +143,7 @@
                         <p class=" text-center md:text-right  ">متن دسته بندی</p>
                         <diV class="mx-auto md:mx-0 text-right">
                             <a href="#"
-                                class="px-6 border-2 border-[#fafafa] rounded-lg md:inline-flex hover:bg-white hover:text-black hover:border-2">بیشتر</a>
+                                class="pt-0 px-6 border-2 border-[#fafafa] rounded-lg md:inline-flex hover:bg-white hover:text-black hover:border-2">بیشتر</a>
                         </diV>
                     </div>
                 </div>
@@ -167,7 +165,7 @@
                     <div
                         class="fle items-center justify-between py-3 transition duration-500 cursor-pointer group ease ">
                         <div class="transition duration-500 ease group-focus:rotate-180 "></div>
-                        <div class="text-lg">عنوان سوال</div>
+                        <div class="text-lg text-right">عنوان سوال</div>
                     </div>
 
                     <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0  ease ">
@@ -185,11 +183,13 @@
                 class="flex flex-col items-start justify-center max-w-2xl  mx-auto space-y-6 px-6 md:flex-row md:space-y-0   md:space-x-0  md:px-0">
                 <div class=" flex flex-col justify-between items-center mx-auto md:flex-row md:mx-0">
                     <input type="submit"
-                        class="inline-flex px-6 py-2 mr-2 rounded-lg border-2 hover:bg-[#fafafa] hover:text-black cursor-pointer focus:outline-none"
+                        class="inline-flex px-6 py-2 mr-2 rounded-lg  items-center border-2 hover:bg-[#fafafa] hover:text-black cursor-pointer focus:outline-none"
                         value="ارسال">
-                    <input type="text"
-                        class="flex-1 px-6 pt-3 mb-6 rounded-lg text-black focus:outline-none md:mr-3 md:mb-0"
-                        placeholder="آدرس ایمیل">
+                        <div class="flex justify-center">
+                            <input type="text"
+                            class=" pt-3 pb-3 flex px-6 mb-12 rounded-lg text-black text-center items-center focus:outline-none md:mr-3 md:mb-0"
+                            placeholder="آدرس ایمیل">
+                    </div>
                 </div>
             </form>
         </div>

@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'MyCustomFont';
-    src: url('./A-Iranian-Sans/A-Iranian-Sans/irsans.ttf') format('truetype'),
-             url('./A-Iranian-Sans/A-Iranian-Sans/irsansb.ttf') format('truetype');
+    font-family: 'IranSans';
+    src: url('A-Iranian-Sans/irsans.ttf') format('truetype'),
+             url('A-Iranian-Sans/irsansb.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,3 +9,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family:IranSans;
+}
+
