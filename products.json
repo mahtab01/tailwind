@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "Name": "هدست",
+        "Price": "123000",
+        "image": "./photo/photo_2024-12-03_13-22-42.jpg",
+        "null": null
+    },
+    {
+        "id": "2",
+        "Name": "مانیتور",
+        "Price": "2500000",
+        "image": "./photo/manitor.jpg",
+        "null": null
+    },
+    {
+        "id": "3",
+        "Name": "کیبور",
+        "Price": "20000",
+        "image": "./photo/OIG2.jpg",
+        "null": null
+    },
+    {
+        "id": "4",
+        "Name": "ماوس",
+        "Price": "10000",
+        "image": "./photo/OIG2.ixe4L_5NrHh.jpg",
+        "null": null
+    }
+]
